@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="en-us"><head>
+    <title>Tom’s Web</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="" />
+
+    
+    
+    
+    <link rel="stylesheet" href="../../css/theme.min.css">
+
+    
+    
+    
+
+    
+</head>
+<body>
+        <div id="content" class="mx-auto"><header class="container mt-sm-5 mt-4 mb-4 mt-xs-1">
+    <div class="row">
+        <div class="col-sm-4 col-12 text-sm-right text-center pt-sm-4">
+            <a href="../../" class="text-decoration-none">
+                <img id="home-image" class="rounded-circle"
+                    
+                        
+                            src="../../images/avatar.png"
+                        
+                    
+                />
+            </a>
+        </div>
+        <div class="col-sm-8 col-12 text-sm-left text-center">
+            <h2 class="m-0 mb-2 mt-4">
+                <a href="../../" class="text-decoration-none">
+                    
+                        Tom
+                    
+                </a>
+            </h2>
+            <p class="text-muted mb-1">
+                
+                    Linux大作业及笔记
+                
+            </p>
+            <ul id="nav-links" class="list-inline mb-2">
+                
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../about/" title="关于">关于</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../post/" title="主要内容">主要内容</a>
+                    </li>
+                
+                    <li class="list-inline-item">
+                        <a class="badge badge-white " href="../../categories/" title="Categories">Categories</a>
+                    </li>
+                
+            </ul>
+            <ul id="nav-social" class="list-inline">
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="http://github.com/youruser" target="_blank">
+                            <i class="fab fa-github fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="" target="_blank">
+                            <i class="fab fa-linkedin-in fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="" target="_blank">
+                            <i class="fab fa-twitter fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+                    <li class="list-inline-item mr-3">
+                        <a href="" target="_blank">
+                            <i class="fas fa-at fa-1x text-muted"></i>
+                        </a>
+                    </li>
+                
+            </ul>
+        </div>
+    </div>
+    <hr />
+</header>
+<div class="container">
+    <div class="pl-sm-2">
+        <div class="mb-3">
+            <h3 class="mb-0">笔记</h3>
+            
+            <small class="text-muted">Published December 13, 2022</small>
+        </div>
+
+        <article>
+            <h1 id="tom的linux学习笔记">Tom的Linux学习笔记</h1>
+<p>以下为Linux课堂笔记</p>
+<h1 id="一linux是什么">一、Linux是什么？</h1>
+<p>Linux，全称GNU/Linux，是一种免费使用和自由传播的类UNIX操作系统，其内核由林纳斯·本纳第克特·托瓦兹于1991年10月5日首次发布，它主要受到Minix和Unix思想的启发，是一个基于POSIX的多用户、多任务、支持多线程和多CPU的操作系统。它能运行主要的Unix工具软件、应用程序和网络协议。它支持32位和64位硬件。Linux继承了Unix以网络为核心的设计思想，是一个性能稳定的多用户网络操作系统。</p>
+<h1 id="二linux主要命令">二、Linux主要命令</h1>
+<ol>
+<li>ls-l：表示list，表示以详细列表的形式进行展示</li>
+<li>ls-a：表示显示所有的文件/文件夹（包含了隐藏文件/文件夹）</li>
+<li>ls-h：以可读性较高的形式显示文件大小</li>
+<li>mkdir 路径 创建目录</li>
+<li>touch 文件名 创建一个或多个文件</li>
+<li>cp 被复制的文档路径 文档被复制到的路径 复制文件到指定目录</li>
+<li>mv 需要移动的文档路径 需要保存的位置路径 移动文件到一个目录下</li>
+<li>rm-f 需要移除的文档路径 强制删除文件</li>
+<li>zip 打包压缩后文件名 要打包压缩的文件 打包压缩文件</li>
+<li>unzip 要解压文件名 解压文件</li>
+<li>shutdown -h now        立刻关机</li>
+<li>shutdown -r now        立刻重启</li>
+<li>cd /        切换到根目录</li>
+<li>cd /usr        切换到根目录下的usr目录</li>
+<li>cd ../        切换到上一级目录 或者  cd ..</li>
+<li>cd ~        切换到home目录</li>
+<li>cd -        切换到上次访问的目录</li>
+<li>基本上vi可以分为三种状态，分别是命令模式、插入模式和底行模式ESC 退出编辑模式到命令行模式；控制光标移动：↑，↓，j，删除当前行：dd，进入编辑模式：i ，进入底行模式：:；退出编辑：   :q，强制退出：   :q!，保存并退出：  :wq。
+查看文件权限rwx：r代表可读，w代表可写，x代表该文件是一个可执行文件</li>
+<li>which命令的作用是在PATH变量指定的路径中，搜索某个系统命令的位置，并且返回第一个搜索结果。</li>
+<li>find命令在目录结构中搜索文件</li>
+<li>sudo是为所有想使用root权限的普通用户设计的。可以让普通用户具有临时使用root权限的权利。</li>
+<li>pwd     查看当前目录路径</li>
+<li>kill 进程号 结束进程</li>
+<li>ifconfig：查看网卡信息</li>
+<li>chmod 权限 修改文件权限</li>
+<li>groupadd group_name 创建一个新用户组</li>
+<li>groupdel group_name 删除一个用户组</li>
+<li>useradd user1 创建一个新用户</li>
+<li>userdel -r user1 删除一个用户</li>
+<li>apt-get install 包名 安装/更新一个 deb 包</li>
+<li>cat 直接输出文件的全部内容</li>
+<li>head 输出文件开头的内容、-n 指定行数</li>
+<li>tail 输出文件末尾的内容，-n输出尾n行</li>
+<li>more 按页显示文本文件内容，只允许向前浏览</li>
+<li>less 与more类似，允许向前向后浏览</li>
+<li>tee 将文件的输出复制到另一个文件</li>
+<li>od 将文件内容以指定的禁止显示，-t指定进制</li>
+<li>标准输入文件即0，使用&lt;或&laquo;</li>
+<li>标准输出文件即代码1，使用&gt;或&raquo;</li>
+<li>标准错误输出文件即代码2，使用2&gt;或2&raquo;</li>
+<li>xargs 一般是和管道一起使用 -n 选项多行输出</li>
+<li>-d 选项可以自定义一个定界符</li>
+<li>xargs 的一个选项 -I，使用 -I 指定一个替换字符串 {}，这个字符串在 xargs 扩展时会被替换掉，当 -I 与 xargs 结合使用，每一个参数命令都会被执行一次</li>
+<li>xargs 结合 find 使用  find . -type f -name &ldquo;*.log&rdquo; -print0 | xargs -0 rm -f</li>
+<li>clear  清楚屏幕信息</li>
+<li>echo xx  显示文本</li>
+<li>date  显示日期和时间</li>
+<li>cal  显示当前日期</li>
+<li>last  显示最近登录系统的用户信息-6列</li>
+<li>history （10） 显示历史指令</li>
+<li>sudo adduser lilei sudo  给普通用户赋予root权限</li>
+<li>alias l=’ls’  定义命令别名</li>
+<li>unalias l  删除别名</li>
+<li>alias  列出别名</li>
+<li>ps -ef | grep sshd  查找指定ssh服务进程</li>
+<li>ps -ef | grep sshd | grep -v grep 查找指定服务进程，排除gerp身</li>
+<li>ps -ef | grep sshd -c 查找指定进程个数</li>
+<li>wc：利用 wc 指令我们可以计算文件的 Byte 数、字数、或是列数,若不指定文件名称、或是所给予的文件名为“-”,则 wc 指令会从标准输入设备读取数据。
+-c 或–bytes 或–chars 只显示 Bytes 数。
+-l 或–lines 只显示列数。
+-w 或–words 只显示字数。</li>
+<li>linux可通过crontab设置定时任务，常用参数-e 设置任务，-l 查看任务计划，设置任务&gt;的时间格式为：分钟 小时 日期 月份 星期 命令</li>
+<li>pvcreate /DEV   创建物理卷</li>
+<li>pvs     查看物理卷</li>
+<li>pvremove /DEV   删除物理卷</li>
+<li>vgcreate VGNAME /DEV    创建卷组</li>
+<li>vgextend /DEV   扩展卷组</li>
+<li>vgreduce VGNAME /DEV    收缩卷组</li>
+<li>vgremove VGNAME 删除卷组</li>
+<li>lvcreate -L 10G -n LVNAME VGNAME        创建指定逻辑卷大小和逻辑卷名称的名称</li>
+<li>lvs     查看逻辑卷</li>
+<li>lvextend -L +10G /DEV   增加10G逻辑卷大小</li>
+<li>lvremove /DEV/VGNAME/LVNAME     删除逻辑卷</li>
+<li>脚本shell命令
+$       变量符
+‘’      单引号字符，全部普通字符
+“”      双引号字符，可以包括特殊字符如反引号
+$?      返回上一个变量返回值
+$#      传送给shell程序位置参数的数量
+$0      当前执行的进程名
+$!      后台运行的最后一个进程号
+$$      当前进程的进程号
+$n      第n个参数
+$@      全部位置参数
+$()     获取命令输出结果
+``      获取命令输出结果
+$(())   算数拓展运算符
+-eq、-ne、-lt、le、-gt、-ge     表示相等、不等于、小于、小于或等于、大于、大于&gt;或等于
+[]      条件表达式
+-d      是否是目录，如 if [-f a.sh]
+-f      是否是普通文件，如if [-d a.txt]
+-a、-o  逻辑和与逻辑或</li>
+</ol>
+
+        </article>
+    </div>
+
+    
+
+            </div>
+        </div><footer class="text-center pb-1">
+    <small class="text-muted">
+        
+            &copy;Tom的Linux作业 
+        
+        <br>
+        Powered by <a href="https://gohugo.io/" target="_blank">Hugo</a>
+        and <a href="https://github.com/austingebauer/devise" target="_blank">Devise</a>
+    </small>
+</footer>
+</body>
+</html>

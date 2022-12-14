@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tom’s Web</title>
+    <link>https://Tangjunye.github.io/</link>
+    <description>Recent content on Tom’s Web</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy;Tom的Linux作业 </copyright>
+    <lastBuildDate>Tue, 13 Dec 2022 12:11:37 +0800</lastBuildDate><atom:link href="https://Tangjunye.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>大作业</title>
+      <link>https://Tangjunye.github.io/post/dazuoye/</link>
+      <pubDate>Tue, 13 Dec 2022 12:11:37 +0800</pubDate>
+      
+      <guid>https://Tangjunye.github.io/post/dazuoye/</guid>
+      <description>Tom的大作业 以下为大作业步骤
+一.Git 安装git 二、Socket 使用socket技术编写程序，创建服务端和客户端并且实现通信 安装docker 使用容器技术Docker，socket客户端和服务端代码 使用容器技术Docker，将socket客户端和服务端分别运行在不同的容器中，实现socket客户端和服务端之间的信息传递。 三、Hugo 下载Hugo，并且配置好Hugo相关环境 生成站点，创建文章，安装皮肤，生成静态网站，并且部署到Web服务器 网站内容，Linux课程中的学习笔记 网站内容，大作业完成步骤 四、Docker容器技术和Hugo静态网站结合 使用容器技术Docker部署上述静态网站 </description>
+    </item>
+    
+    <item>
+      <title>笔记</title>
+      <link>https://Tangjunye.github.io/post/biji/</link>
+      <pubDate>Tue, 13 Dec 2022 12:11:37 +0800</pubDate>
+      
+      <guid>https://Tangjunye.github.io/post/biji/</guid>
+      <description>Tom的Linux学习笔记 以下为Linux课堂笔记
+一、Linux是什么？ Linux，全称GNU/Linux，是一种免费使用和自由传播的类UNIX操作系统，其内核由林纳斯·本纳第克特·托瓦兹于1991年10月5日首次发布，它主要受到Minix和Unix思想的启发，是一个基于POSIX的多用户、多任务、支持多线程和多CPU的操作系统。它能运行主要的Unix工具软件、应用程序和网络协议。它支持32位和64位硬件。Linux继承了Unix以网络为核心的设计思想，是一个性能稳定的多用户网络操作系统。
+二、Linux主要命令 ls-l：表示list，表示以详细列表的形式进行展示 ls-a：表示显示所有的文件/文件夹（包含了隐藏文件/文件夹） ls-h：以可读性较高的形式显示文件大小 mkdir 路径 创建目录 touch 文件名 创建一个或多个文件 cp 被复制的文档路径 文档被复制到的路径 复制文件到指定目录 mv 需要移动的文档路径 需要保存的位置路径 移动文件到一个目录下 rm-f 需要移除的文档路径 强制删除文件 zip 打包压缩后文件名 要打包压缩的文件 打包压缩文件 unzip 要解压文件名 解压文件 shutdown -h now 立刻关机 shutdown -r now 立刻重启 cd / 切换到根目录 cd /usr 切换到根目录下的usr目录 cd ../ 切换到上一级目录 或者 cd .. cd ~ 切换到home目录 cd - 切换到上次访问的目录 基本上vi可以分为三种状态，分别是命令模式、插入模式和底行模式ESC 退出编辑模式到命令行模式；控制光标移动：↑，↓，j，删除当前行：dd，进入编辑模式：i ，进入底行模式：:；退出编辑： :q，强制退出： :q!，保存并退出： :wq。 查看文件权限rwx：r代表可读，w代表可写，x代表该文件是一个可执行文件 which命令的作用是在PATH变量指定的路径中，搜索某个系统命令的位置，并且返回第一个搜索结果。 find命令在目录结构中搜索文件 sudo是为所有想使用root权限的普通用户设计的。可以让普通用户具有临时使用root权限的权利。 pwd 查看当前目录路径 kill 进程号 结束进程 ifconfig：查看网卡信息 chmod 权限 修改文件权限 groupadd group_name 创建一个新用户组 groupdel group_name 删除一个用户组 useradd user1 创建一个新用户 userdel -r user1 删除一个用户 apt-get install 包名 安装/更新一个 deb 包 cat 直接输出文件的全部内容 head 输出文件开头的内容、-n 指定行数 tail 输出文件末尾的内容，-n输出尾n行 more 按页显示文本文件内容，只允许向前浏览 less 与more类似，允许向前向后浏览 tee 将文件的输出复制到另一个文件 od 将文件内容以指定的禁止显示，-t指定进制 标准输入文件即0，使用&amp;lt;或&amp;laquo; 标准输出文件即代码1，使用&amp;gt;或&amp;raquo; 标准错误输出文件即代码2，使用2&amp;gt;或2&amp;raquo; xargs 一般是和管道一起使用 -n 选项多行输出 -d 选项可以自定义一个定界符 xargs 的一个选项 -I，使用 -I 指定一个替换字符串 {}，这个字符串在 xargs 扩展时会被替换掉，当 -I 与 xargs 结合使用，每一个参数命令都会被执行一次 xargs 结合 find 使用 find .</description>
+    </item>
+    
+  </channel>
+</rss>
